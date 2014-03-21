@@ -35,11 +35,9 @@
         
         
         // Create the marker controls
-        var addMarker = new L.Control.addMarker();
-        map.addControl(addMarker);
-        var delMarker = new L.Control.delMarker();
-        map.addControl(delMarker);
-
+        var marker_controls = new L.Control.SimpleMarker();
+        map.addControl(marker_controls);
+        
 	</script>
 </body>
 </html>

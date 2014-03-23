@@ -11,6 +11,6 @@ http://jdomingu.github.io/Leaflet.SimpleMarkers/
 
 To create the marker controls, enter the following code:
 ```
-var marker_controls = new L.Control.SimpleMarker();
+var marker_controls = new L.Control.SimpleMarkers();
 map.addControl(marker_controls);
 ```
